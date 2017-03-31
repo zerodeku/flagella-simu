@@ -1,0 +1,17 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/zerodeku/Documents/BactobotSimu/flagella_simu/build1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_b508d/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b508d.dir\build.make CMakeFiles/cmTC_b508d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/zerodeku/Documents/BactobotSimu/flagella_simu/build1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b508d.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe     -o CMakeFiles\cmTC_b508d.dir\CheckIncludeFile.c.obj   -c C:\Users\zerodeku\Documents\BactobotSimu\flagella_simu\build1\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\zerodeku\Documents\BactobotSimu\flagella_simu\build1\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b508d.dir\build.make:65: CMakeFiles/cmTC_b508d.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/zerodeku/Documents/BactobotSimu/flagella_simu/build1/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:125: cmTC_b508d/fast] Error 2
+
+
